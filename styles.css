@@ -1,6 +1,4 @@
 *{
-  margin:0;
-  padding: 0;
   font-family: "PoliceCV", Arial, serif;
 }
 @font-face {
@@ -10,6 +8,16 @@
 body{
   background-color:#E0E0E0;
 }
+a {
+  text-decoration: none;
+  color: blue;
+}
+td img{
+  width: 4rem;
+  height: auto;
+  margin-top: 10px;
+}
+
 /* Gestion des blocs */
 .global{
   display: flex;
@@ -21,7 +29,6 @@ body{
   background-color: #BBDEFB;
   display : flex;
   flex-direction: column;
-
   text-align: center;
 }
 .infos h2 {
@@ -102,7 +109,7 @@ body{
   font-size: 3rem;
   text-align:left;
 }
-.formations table, .skills table {
+.formations table, .skills table, .experience table {
 width:40vw;
 margin:auto;
 text-align: center;
@@ -116,12 +123,38 @@ text-align: center;
   text-align: left;
   padding-top: 1rem;
 }
-td img{
-  width: 4rem;
-  height: auto;
-  margin-top: 10px;
-}
 .spanPosteExp{
   font-weight: bold;
   font-size: 1rem;
+}
+
+/* --------------------------------------------- Desgin pour mobiles ---------------------------------------*/
+
+@media all and (max-width:1024px) {
+  .global
+  {
+    flex-direction: column;
+    margin:auto;
+    width: 80vw;
+  }
+  .contenuInfos, .loisirs, .infos {
+    width: 80vw;
+    height: auto;
+  }
+.contenu {
+  width: 80vw;
+  padding: 0px;
+}
+  .EnTete {
+    width: 15vw;
+  }
+  .contenuTD {
+    width: 60vw;
+  }
+  .formations table, .skills table, .experience table {
+    width: 75vw;
+  }
+  .nom, .titreExperience, .titreSkills, .titreFormation, .titre p {
+    text-align: center;
+  }
 }
