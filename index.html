@@ -1,39 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
     <title>Mickael VERMAND</title>
   </head>
   <body>
+  <div class="global">
     <!-- Partie aside -->
     <div class="infos">
-      <div class="Photo">
-        <img src="Images/PhotoCv.png" alt="Mickael VERMAND">
-      </div>
-      <div class="contact">
-        <h2>Contact</h2>
-        <table>
-          <tr>
-            <td>Email</td>
-            <td>mickael.vermand@gmail.com</td>
-          </tr>
-          <tr>
-            <td>Skype</td>
-            <td>A créer</td>
-          </tr>
-          <tr>
-            <td>Téléphone</td>
-            <td>06.XX.XX.XX.XX</td>
-          </tr>
-          <tr>
-            <td>GitHub</td>
-            <td>A définir</td>
-          </tr>
-        </table>
-      </div>
-      <div class="APropos">
-        <h2>A propos</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum mattis sodales. Etiam in elit in urna commodo blandit vel fermentum nunc. Sed mattis mattis nunc, sed vestibulum metus cursus a. Sed eget sem ut diam molestie euismod. Mauris et viverra nisl. Curabitur auctor vehicula dui, sit amet vehicula urna aliquet et. Etiam quis diam dui. Curabitur lobortis ullamcorper volutpat. Cras odio neque, ultricies accumsan enim a, porttitor sollicitudin massa. Curabitur efficitur hendrerit felis at egestas. Mauris molestie erat vel dolor elementum blandit non et est. Curabitur volutpat tristique nulla a dignissim.</p>
+      <div class="contenuInfos">
+        <div class="Photo">
+          <img src="Images/PhotoCv.png" alt="Mickael VERMAND">
+        </div>
+        <div class="contact">
+          <h2>Contact</h2>
+          <table>
+            <tr>
+              <td>Email</td>
+              <td>mickael.vermand@gmail.com</td>
+            </tr>
+            <tr>
+              <td>Skype</td>
+              <td>Mikev60</td>
+            </tr>
+            <tr>
+              <td>Téléphone</td>
+              <td>06.33.49.38.34</td>
+            </tr>
+            <tr>
+              <td>GitHub</td>
+              <td>Mikev60</td>
+            </tr>
+          </table>
+        </div>
+        <div class="APropos">
+          <h2>A propos</h2>
+          <p>En pleine reconversion professionnelle, je suis toujours à la recherche de nouveaux challenges pour améliorer mes compétences et en acquérir de nouvelles. Fort de mon expérience au sein de l'industrie automobile, aéronautique ou de la logistique, je suis capable de mettre en place des méthodes de travail efficaces orientées satisfaction client aussi vite que possible. </p>
+        </div>
       </div>
       <div class="loisirs">
         <h2>Loisirs</h2>
@@ -46,64 +50,112 @@
     <!-- Partie contenu de cv -->
     <div class="contenu">
       <div class="titre">
-        <h1>Mickael VERMAND</h1>
+        <h1 class="nom"><span>Mickael</span> VERMAND</h1>
         <p>Développeur WEB en formation</p>
       </div>
       <div class="formations">
-        <h2>Formation</h2>
+        <h2 class="titreFormation">Formation</h2>
         <table>
           <tr>
-            <td>Formation 1</td>
-            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut mauris fermentum purus pellentesque commodo et a risus. Quisque posuere augue et risus consequat, at aliquam urna rutrum. Ut in nulla ipsum. Aenean sollicitudin ornare commodo. Donec dictum feugiat risus.</td>
+            <td class="EnTete"><p>2020 - En cours </p> <img src="Images/OC.png" alt="Openclassrooms" Title="Openclassrooms"></td>
+            <td class="contenuTD"><span class="spanPosteExp">Openclassrooms - Formation de développeur WEB</span>
+              <p>Formation à distance permettant de devenir développeur WEB : </p>
+              <ul>
+                <li>Compétences de bases de programmation du WEB : HTML5 et CSS3</li>
+                <li>Javascript</li>
+                <li>Full-stack : Node.js, Express, MongoDB</li>
+                <li>Vue.js</li>
+              </ul>
+            </td>
           </tr>
           <tr>
-            <td>Formation 2</td>
-            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut mauris fermentum purus pellentesque commodo et a risus. Quisque posuere augue et risus consequat, at aliquam urna rutrum. Ut in nulla ipsum. Aenean sollicitudin ornare commodo. Donec dictum feugiat risus.</td>
-          </tr>
-          <tr>
-            <td>Formation 3</td>
-            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut mauris fermentum purus pellentesque commodo et a risus. Quisque posuere augue et risus consequat, at aliquam urna rutrum. Ut in nulla ipsum. Aenean sollicitudin ornare commodo. Donec dictum feugiat risus.</td>
-          </tr>
-          <tr>
-            <td>Formation 4</td>
-            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut mauris fermentum purus pellentesque commodo et a risus. Quisque posuere augue et risus consequat, at aliquam urna rutrum. Ut in nulla ipsum. Aenean sollicitudin ornare commodo. Donec dictum feugiat risus.</td>
+            <td class="EnTete"><p>2013-2016</p><img src="Images/MinesNancy.png" alt="Mines Nancy" Title="Mines Nancy"></td>
+            <td class="contenuTD"> <span class="spanPosteExp">Ecole Nationale Supérieure des Mines de Nancy Formation Ingénieur Matériaux et Gestion de production</span>
+              <p>Formation d'ingénieur en 3 ans, alterné 6mois école/stage : </p>
+              <ul>
+                <li>Science des matériaux : métaux, céramiques, verres, polymères</li>
+                <li>Management de la production</li>
+                <li>Gestion de la supply-chain </li>
+                <li>Management de l'amélioration continue : LEAN, TOC</li>
+              </ul>
+            </td>
           </tr>
         </table>
       </div>
       <div class="experience">
-        <h2>Expérience professionnelle</h2>
+        <h2 class="titreExperience">Expérience professionnelle</h2>
         <table>
           <tr>
-            <td>Expérience 1</td>
-            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut mauris fermentum purus pellentesque commodo et a risus. Quisque posuere augue et risus consequat, at aliquam urna rutrum. Ut in nulla ipsum. Aenean sollicitudin ornare commodo. Donec dictum feugiat risus.</td>
+            <td class="EnTete"><p>Mars 2019 - Aujourd'hui</p><img src="Images/Coca.png" alt="Coca-Cola" title="Coca-Cola"></td>
+            <td class="contenuTD"><span class="spanPosteExp">Coca-Cola - Chef d'équipe production</span>
+              <p>Gestion ligne production des bouteilles 1,25L :</p>
+            <ul>
+              <li>Encadrement d’une équipe de 12 personnes</li>
+              <li>Respect et optimisation du planning de production</li>
+              <li>Gestion des stocks : inventaires, approvisionnement</li>
+              <li>Gestion des congés, du planning pour affectation des
+              tâches en fonction de la demande</li>
+              <li>Veille au respect de la politique sécurité et qualité de
+              l’entreprise</li>
+              <li>Gestion de la formation des opérateurs afin de les
+              rendre plus polyvalents sur l’UAP</li>
+              <li>Création, mise en place et accompagnement de projets
+              d’amélioration continue</li>
+            </ul></td>
           </tr>
           <tr>
-            <td>Expérience 2</td>
-            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut mauris fermentum purus pellentesque commodo et a risus. Quisque posuere augue et risus consequat, at aliquam urna rutrum. Ut in nulla ipsum. Aenean sollicitudin ornare commodo. Donec dictum feugiat risus.</td>
+            <td class="EnTete"><p>Octobre 2018 - Mars 2019</p><img src="Images/amazon.png" alt="Amazon" title="Amazon"></td>
+            <td class="contenuTD"><span class="spanPosteExp">Amazon - Area Manager</span>
+              <ul>
+                <li>Gestion d’une équipe allant de 70 à 130 personnes</li>
+                <li>Affectation des tâches en fonction du planning</li>
+                <li>Gestion des compétences des opérateurs et
+                accompagnement dans leur formation</li>
+                <li>Mise en place d’améliorations sur la ligne en respectant
+                les principes du LEAN et de la TOC</li>
+                <li>Animation de la politique sécurité et qualité de
+                l’entreprise</li>
+              </ul>
+            </td>
           </tr>
           <tr>
-            <td>Expérience 3</td>
-            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut mauris fermentum purus pellentesque commodo et a risus. Quisque posuere augue et risus consequat, at aliquam urna rutrum. Ut in nulla ipsum. Aenean sollicitudin ornare commodo. Donec dictum feugiat risus.</td>
-          </tr>
-          <tr>
-            <td>Expérience 4</td>
-            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut mauris fermentum purus pellentesque commodo et a risus. Quisque posuere augue et risus consequat, at aliquam urna rutrum. Ut in nulla ipsum. Aenean sollicitudin ornare commodo. Donec dictum feugiat risus.</td>
+            <td class="EnTete"><p>Mars 2017 - Octobre 2018</p> <img src="Images/albany.png" title="Albany" alt="Albany"></td>
+            <td class="contenuTD"><span class="spanPosteExp">Albany Safran composites - Ingénieur amélioration continue</span>
+            <ul>
+              <li>Liaison amélioration continue entre usine française et
+  américaine : création et mise en place du système
+  interne à l’entreprise (routines, outils)</li>
+              <li>Création d’outils d’aide à la gestion de production</li>
+              <li>Création et mise en place de chantiers 5S et KANBAN</li>
+              <li>Formation des opérateurs aux outils et principes du
+              Lean/ Théorie des contraintes, support à la production</li>
+            </ul>
+            </td>
           </tr>
         </table>
       </div>
-      <div class="recommandations">
-        <h2>Recommandations</h2>
+      <div class="skills">
+        <h2 class="titreSkills">Compétences</h2>
         <table>
           <tr>
-            <td>Recommandation 1</td>
-            <td>Détail 1</td>
+            <td><img src="Images/UK.svg" alt="Anglais" title="Anglais"></td>
+            <td><img src="Images/HTML5.png" alt="HTML5" title="HTML5"></td>
+            <td><img src="Images/CSS3.png" alt="CSS3" title="CSS3"></td>
+            <td><img src="Images/Blender.png" alt="Blender" title="Blender"></td>
+            <td><img src="Images/Unity.png" alt="Unity" title="Unity"></td>
+            <td><img src="Images/Office.png" alt="Pack Office" title="Pack Office"></td>
           </tr>
           <tr>
-            <td>Recommandation 2</td>
-            <td>Détail 2</td>
+            <td>Bilingue</td>
+            <td>HTML5</td>
+            <td>CSS3</td>
+            <td>Blender</td>
+            <td>Unity</td>
+            <td>Pack Office</td>
           </tr>
         </table>
       </div>
     </div>
+  </div>
   </body>
 </html>
