@@ -24,6 +24,9 @@ td img{
   margin:auto;
   width: 60vw;
 }
+.W3C {
+  text-align:center;
+}
 /* ----------------------------- Bloc Infos ----------------------*/
 .infos{
   background-color: #BBDEFB;
